@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "trip-planner": {
+      "command": "python3",
+      "args": ["backend/mcp_server.py"],
+      "cwd": "/home/work/project/tripe-planner",
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}
